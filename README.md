@@ -9,7 +9,7 @@
 * Security in operating systems.
 * Software security: vulnerability, attacks, and defence mechanisms
 
-## Examination
+### Examination
 * INLB - Written Assignment
 * PRO1 - Project Assignment
 
