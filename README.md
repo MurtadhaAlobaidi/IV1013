@@ -12,3 +12,6 @@
 ## Examination
 * INLB - Written Assignment
 * PRO1 - Project Assignment
+
+### How to exixut 
+* Stream Cipher Assignment
