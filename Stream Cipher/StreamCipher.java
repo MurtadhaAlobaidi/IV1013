@@ -1,5 +1,6 @@
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
+import java.util.Random;
 
 public class StreamCipher {
 
@@ -32,9 +33,10 @@ public class StreamCipher {
             System.exit(1);
         }
 
+        Random prng = new Random(key);
         try {
             for (int i = input.read(); i != -1;) {
-                int readOutput = i;
+                int readOutput = i ^ prng.nextInt(8);
                 output.write(readOutput);
                 i = input.read();
             }
@@ -48,4 +50,3 @@ public class StreamCipher {
         System.exit(0);
     }
 }
-
