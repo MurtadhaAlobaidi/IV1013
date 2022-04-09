@@ -16,9 +16,9 @@
 ### How to Execute 
 1. Clone this git repository. `git clone https://github.com/mhaao/IV1013`
 * To test Stream Cipher Assignment `<key>` `inefile` `outefile`
-   * Task1
-   * Task2
-   * Task3
+   * Task1: `StreamCipher.java`
+   * Task2: `StreamCipher.java` , `MyRandom.java` and `Report.pdf`
+   * Task3: `StreamCipher.java` & `MyRandom.java`
 > ex: 
 > 1. `javac StreamCipher.java`  
 > 1. `java StreamCipher 12345678 inefile.txt outefile.txt`
