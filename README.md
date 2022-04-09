@@ -19,5 +19,5 @@
 `<key>` `inefile` `outefile`
 > ex: 
 > 1. `javac StreamCipher.java`  
-> 1. `java StreamCipher 19881128 inefile.txt outefile.txt`
+> 1. `java StreamCipher 12345678 inefile.txt outefile.txt`
 
