@@ -4,7 +4,7 @@ import java.util.Random;
 
 public class StreamCipher {
 
-    static Integer key = 0;
+    static long key = 0;
     static FileInputStream input = null;
     static FileOutputStream output = null;
 
@@ -19,7 +19,7 @@ public class StreamCipher {
         }
 
         try {
-            key = Integer.parseInt(args[0]);
+            key = Long.parseLong(args[0]);
         } catch (Exception e) {
             System.err.println("Key are invalid");
             System.exit(1);
