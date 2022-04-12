@@ -3,7 +3,7 @@ import java.io.FileOutputStream;
 
 public class StreamCipher {
 
-    static Integer key = 0;
+    static long key = 0;
     static FileInputStream input = null;
     static FileOutputStream output = null;
 
@@ -18,7 +18,7 @@ public class StreamCipher {
         }
 
         try {
-            key = Integer.parseInt(args[0]);
+            key = Long.parseLong(args[0]);
         } catch (Exception e) {
             System.err.println("Key are invalid");
             System.exit(1);
@@ -31,7 +31,7 @@ public class StreamCipher {
             System.err.println("There are no Input fil");
             System.exit(1);
         }
-        // Task2
+        // Task2 and 3
         MyRandom prng = new MyRandom(key);
         // Task1
         // Random prng = new Random(key);
