@@ -37,11 +37,12 @@ public class StreamCipher {
         // Random prng = new Random(key);
         try {
             for (int i = input.read(); i != -1;) {
-                int readOtput = i ^ prng.nextInt(8);
+                int readOtput = i ^ prng.next(8);
                 output.write(readOtput);
                 i = input.read();
             }
             input.close();
+            output.flush();
             output.close();
         } catch (Exception e) {
             System.err.println("ERROR on output data");
