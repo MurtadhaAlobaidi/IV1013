@@ -15,7 +15,7 @@
 
 ### How to Execute 
 * Clone this git repository. `git clone https://github.com/mhaao/IV1013`
-1. Go to Stream Cipher file
+#### Go to `Stream Cipher file`
 * To test Stream Cipher Assignment `<key>` `inefile` `outefile`
    * Task1: `StreamCipher.java`
    * Task2: `StreamCipher.java` , `MyRandom.java` and `Report.pdf`
@@ -24,7 +24,7 @@
 > 1. `javac StreamCipher.java`  
 > 1. `java StreamCipher 12345678 inefile.txt outefile.txt`
 
-1. Go to One-way-hash
+#### Go to `One-way-hash`
 * To test One-way-hash Assignment
    * Task1: By using `OpenSSL command`
    * Task2: `OpenSSL command`
@@ -33,8 +33,5 @@
 > ex: 
 > 1. `openssl dgst -md5 filename.txt`  
 > 1. `openssl dgst -md5 -hmac "key" filename.txt`
-> 1. `javac Counter.java`
-> > 1. `java Counter 12345678 H1.txt H2.txt`
-> 1. `javac CollisionResistance.java`
-> > 1. `java CollisionResistance` 
-> > 1. `Enter your meesage` 
+> 1. `javac Counter.java`, `java Counter 12345678 H1.txt H2.txt`
+> 1. `javac CollisionResistance.java`, `java CollisionResistance`,`Enter your meesage` 
