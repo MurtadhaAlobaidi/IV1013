@@ -1,4 +1,5 @@
-The CollisionResistance.java program collision resistance of the hash function. By use the brute-force method to see how long it takes to break this property. 
+The CollisionResistance.java program collision resistance of the hash function.
+By use the brute-force method to see how long it takes to break this property. 
 
 How to run program in Linux
 
